@@ -1,16 +1,10 @@
-# OnlineVotingSystem
-# Sistem de Vot Online (Python + Tkinter)
+ OnlineVotingSystem(Python + Tkinter)
 
-Acesta este un proiect demonstrativ al unui sistem simplu de votare cu interfață grafică. Aplicația permite autentificarea votanților pe baza CNP-ului si a locului de nastere, alegerea unui candidat și afișarea în timp real a rezultatelor sub formă de grafic. Nu permite votarea de 2 ori cu acelasi cnp.
+This is a demonstration project of a simple voting system with a graphical interface. The application allows voters to authenticate based on their CNP (Personal Numeric Code) and place of birth, choose a candidate, and display real-time results in a graphical format. It prevents voting twice with the same CNP.
 
-## Funcționalități
-- Verificare CNP (format, vârstă, județ, cifră de control)
-- Prevenirea votului dublu
-- Interfață grafică cu Tkinter
-- Afișare rezultatelor în timp real cu matplotlib
+Functionalities:
 
-## Cerințe
-- Python 3.x
-- tkinter (standard)
-- matplotlib
-  
+-CNP Validation (format, age, county, control digit)
+-Double-voting prevention
+-Graphical user interface with Tkinter
+-Real-time results display with Matplotlib
